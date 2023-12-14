@@ -4,12 +4,10 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "karma start karma.config.js",
     "lint": "eslint .",
-    "dev": "npm test -- --auto-watch --no-single-run",
-    "start": "cross-env SINGLE_START=true npm run dev",
-    "build": "rollup -c",
-    "build:watch": "rollup -cw",
+    "start": "npm run build:watch",
+    "build": "webpack",
+    "build:watch": "webpack -w",
     "prepare": "run-s build"
   },
   "keywords": [
