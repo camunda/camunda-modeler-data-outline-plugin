@@ -11,3 +11,18 @@
   stroke: var(--plugin-data-outline-highlight-border-color) !important;
   fill: var(--plugin-data-outline-highlight-bg) !important;
 }
+
+.plg-do-tab-content {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.plg-do-tab-content .plg-do-search {
+  flex: 1 0;
+}
+
+.plg-do-tab-content .plg-do-variable-tree {
+  flex: auto;
+  overflow-y: auto
+}
