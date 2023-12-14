@@ -3,6 +3,9 @@
     "plugin:bpmn-io/node",
     "plugin:bpmn-io/browser",
     "plugin:bpmn-io/jsx"
-  ]
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  }
 }
   

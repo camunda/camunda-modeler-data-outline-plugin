@@ -1,6 +1,18 @@
 @use '@carbon/react';
 
-.variableTypePill {
+.dataOutline--Pill {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+:root {
+  --plugin-data-outline-highlight-border-color: #155cb5;
+  --plugin-data-outline-highlight-bg: rgba(194, 213, 237, 0.4);
+}
+
+.dataOutline-highlight .djs-outline {
+  visibility: visible;
+  stroke-width: 2px !important;
+  stroke: var(--plugin-data-outline-highlight-border-color) !important;
+  fill: var(--plugin-data-outline-highlight-bg) !important;
 }
