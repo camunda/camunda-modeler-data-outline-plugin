@@ -1,0 +1,12 @@
+.dataOutline--Pill > span {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
+  max-width: 150px;
+}
+
+.cds--tag.dataOutline--Pill {
+  margin-top: 0;
+  margin-bottom: 0;
+}
