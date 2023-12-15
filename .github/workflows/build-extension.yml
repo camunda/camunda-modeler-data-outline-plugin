@@ -7,13 +7,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build and Publish
+    name: Build Extension
     steps:
       - name: git-checkout
         uses: actions/checkout@v4
       - name: Install all dependencies
         run: npm ci
-      - name: Build Demo
+      - name: Build Artifacts
         run: npm run build  # The build command of your project
       - name: Publish
         uses: s0/git-publish-subdir-action@92faf786f11dfa44fc366ac3eb274d193ca1af7e
