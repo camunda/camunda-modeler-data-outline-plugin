@@ -7,8 +7,7 @@
     "lint": "eslint .",
     "start": "npm run build:watch",
     "build": "webpack",
-    "build:watch": "webpack -w",
-    "prepare": "run-s build"
+    "build:watch": "webpack -w"
   },
   "keywords": [
     "bpmn-io"
