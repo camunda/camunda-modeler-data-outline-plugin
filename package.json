@@ -1,5 +1,5 @@
 {
-  "name": "data-outline",
+  "name": "camunda-modeler-data-outline-plugin",
   "version": "0.0.0",
   "description": "",
   "main": "dist/index.js",
