@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This plugin was replaced by the built-in variable outline feature of [Camunda Modeler v5.27](https://github.com/camunda/camunda-modeler/blob/develop/CHANGELOG.md#5270).
+
 # Camunda Modeler Data Outline Plugin
 
 [![Compatible with Camunda Modeler version 5.18+](https://img.shields.io/badge/Camunda%20Modeler-5.18+-blue.svg)](https://github.com/camunda/camunda-modeler)
